@@ -39,10 +39,10 @@ _이탤릭체_
 ## 코드
 `console.log('hello world');`
 
-"""js
+```js
 let myName = 'curryyou;
 console.log(myName);
-"""
+```
 
 
 ## 링크
