@@ -26,12 +26,9 @@ _이탤릭체_
 
 
 ## 목록
-1. 목록
-  1. 서브목록
-  2. 서브목록
-2. 목록
-  1. 서브목록
-  2. 서브목록
+1. 순서 목록
+2. 순서 목록
+3. 순서 목록
 
 - 그냥 목록
 - 그냥 목록
@@ -39,9 +36,21 @@ _이탤릭체_
 * 그냥 
 
 
+## 코드
+`console.log('hello world');`
+
+"""js
+let myName = 'curryyou;
+console.log(myName);
+"""
+
+
 ## 링크
 [구글](https://www.google.com)
 [네이버](https://www.google.com "네이버로 이동합니다")
 <https://www.daum.net>
 https://www.daum.net
+
+
+# 이미지
 
