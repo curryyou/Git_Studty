@@ -57,11 +57,20 @@ Git 기본 명령어
 
 ## 6. 커밋 로그 확인
 ### 커밋 이력을 확인할 수 있다.
-> `git log`
+> `git log` : 기본 커밋 이력
 
-> `git log --stat`
+> `git log --p` : 변경된 상세 이력(차이점)
 
-> `git log --graph --all --decorate`
+> `git log --stat` : 연관된 파일을 보여줌
+
+> `git log --graph --all --decorate` : 그래프로 보여줌
+
+<br><br>
+
+## 7. 버전간 차이점 확인
+### 파일을 수정했을 때,
+### commit 된 마지막 버전과의 차이를 확인할 수 있다.
+> `git diff`
 
 <br><br>
 
