@@ -44,7 +44,7 @@ Git 기본 명령어
 > `git commit -am '메시지'` : tracked된 모든 파일의 add와 commit 동시 수행 *(최초 생성된 untracked 파일은 불가)*
 
 ##### `git commit` 은 Staging Area에 있는 **'모든 파일들'** 을 Repository로 등록하여 버전을 생성한다. 
-
+##### `git --amend` 나 `git --amend -m '메시지'`로 마지막 커밋의 메시지를 수정할 수 있다.
 
 <br><br>
 
@@ -68,7 +68,11 @@ Git 기본 명령어
 
 > `git log --stat` : 연관된 파일을 보여줌
 
-> `git log --graph --all --decorate` : 그래프로 보여줌
+> `git log --oneline` : 로그를 한줄로 보여줌
+
+> `git log --all` : 모든 로그를 계속 보여줌(?몬지 잘 모르겠음)
+
+> `git log --graph` : 그래프로 시각적으로보여줌
 
 <br><br>
 
