@@ -28,15 +28,20 @@ Git 기본 명령어
 ## 3. Staging 추가 : add
 ### 1) Git은 처음 생성된 파일들을 관리하지 않는다 : untracked 상태
 ### 2) Staging Area에 넣어 커밋 후보군으로 등록해줘야 관리를 시작한다 : tracked 상태
-> `git add 파일명` : Staging Area에 파일 추가
+> `git add 파일명` : Staging Area에 파일 등록
+
+> `git add .` : Working Tree에 있는 모들 파일을 Staging Area에 등록
+
 
 <br><br>
 
 ## 4. Repository 추가 : commit
 ### Staging Area에 있는 파일들을 Repository로 commit해줘야 버전을 갖게 된다.
-> `git commit` : Respository에 버전 등록
+> `git commit` : Respository에 버전 등록(에디터로 커밋 메시지 별도 작성 필요)
 
-> `git commit -m '메시지'` : 커밋메시지와 함게 Respository에 버전 등록
+> `git commit -m '메시지'` : '커밋메시지'와 함께 Respository에 버전 등록
+
+> `git commit -am '메시지'` : tracked된 모든 파일의 add와 commit 동시 수행 *(최초 생성된 untracked 파일은 불가)*
 
 ##### `git commit` 은 Staging Area에 있는 **'모든 파일들'** 을 Repository로 등록하여 버전을 생성한다. 
 
@@ -67,14 +72,14 @@ Git 기본 명령어
 
 <br><br>
 
-## 7. 버전간 차이점 확인
+## 7. 버전간 차이점 확인 : diff
 ### 파일을 수정했을 때,
 ### commit 된 마지막 버전과의 차이를 확인할 수 있다.
 > `git diff`
 
 <br><br>
 
-## 8. 과거 버전을 '확인'하기
+## 8. 과거 버전 '확인' : checkout
 ### 현재 작업 커밋을 가르키는 포인터를 HEAD라고 함 
 ##### *보통 마지막 커밋을 가르킴*
 ### HEAD가 과거의 특정 커밋을 가르키게 하면, Working Tree가 해당 버전의 모습으로 돌아간다.
