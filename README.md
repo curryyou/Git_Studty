@@ -78,10 +78,8 @@ https://www.daum.net
 ![대체 텍스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc7RuJZ%2FbtqPJMdXrM7%2F6NuTv0yW26mt6WouYzRq8K%2Fimg.png "카레유 블로그 이미지")
 
 ## 테이블
-|항목1|항목2|항목3|
-
+|항목1|항목2|항목3|항목4|항목5|항목6|
 |---|---|---|:---|---:|:---:|
-
 |내용1|내용2|내용3|왼쪽|오른쪽|가운데|
 
 
