@@ -77,7 +77,7 @@ https://www.daum.net
 
 
 # 이미지
-
+![대체 텍스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc7RuJZ%2FbtqPJMdXrM7%2F6NuTv0yW26mt6WouYzRq8K%2Fimg.png "카레유 블로그 이미지")
 
 ## 테이블
 |항목1|항목2|항목3|
@@ -86,5 +86,5 @@ https://www.daum.net
 
 
 ## HTML태그도 먹음
-<a href='https://www.google.com` alt='구글'>구글</a>
+<a href='https://www.google.com' alt='구글'>구글</a>
 <img src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc7RuJZ%2FbtqPJMdXrM7%2F6NuTv0yW26mt6WouYzRq8K%2Fimg.png' alt='카레유 블로그 이미지'>
