@@ -17,11 +17,17 @@
 
 ## 폰트
 **볼드체**
+
 *이탤릭체*
+
 _이탤릭체_
+
 ***볼드이탤릭***
+
 **_볼드이탤릭_**
+
 ~~취소선~~ㅡ
+
 <u>   </u> 밑줄
 
 
@@ -50,10 +56,14 @@ console.log(myName);
 >>> 세번째 인용문
 
 
-## 테이블
-|항목1|항목2|항목3|
-|---|---|---|:---|---:|:---:|
-|내용1|내용2|내용3|왼쪽|오른쪽|가운데|
+## 수평선
+---
+***
+___
+
+
+## 줄바꿈
+안녕<br>나는 카레유야<br>화이팅
 
 
 
@@ -68,3 +78,13 @@ https://www.daum.net
 
 # 이미지
 
+
+## 테이블
+|항목1|항목2|항목3|
+|---|---|---|:---|---:|:---:|
+|내용1|내용2|내용3|왼쪽|오른쪽|가운데|
+
+
+## HTML태그도 먹음
+<a href='https://www.google.com` alt='구글'>구글</a>
+<img src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc7RuJZ%2FbtqPJMdXrM7%2F6NuTv0yW26mt6WouYzRq8K%2Fimg.png' alt='카레유 블로그 이미지'>
