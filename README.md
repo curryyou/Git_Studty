@@ -89,6 +89,9 @@ https://www.daum.net
 |---|---|---|:---|---:|:---:|
 |내용1|내용2|내용3|왼쪽|오른쪽|가운데|
 
+|첫번째 항목|두번째 항목|
+:---------:|:---------:
+<a href='https://www.google.com' alt='구글'>구글</a>|<img width='200px' src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc7RuJZ%2FbtqPJMdXrM7%2F6NuTv0yW26mt6WouYzRq8K%2Fimg.png' alt='카레유 블로그 이미지'>
 
 ## HTML태그도 먹음
 <a href='https://www.google.com' alt='구글'>구글</a>
