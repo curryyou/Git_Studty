@@ -70,16 +70,25 @@ Git Branch
 ## **HEAD, Branch, commit, checkout, reset에 대하여**
 ### Repository를 만들면, HEAD와 Master브랜치가 생성된다.
 ### .git 폴더에 HEAD라는 파일이 있으며, MASTER를 가르키도록(checkout) 되어 있다.
+### 브랜치는 자신에게서 발생한 마지막 commit의 최신 버전 커밋ID를 가르킨다.
 ### 기본적으로 commit을 하면, Master 브랜치 위에서 버전을 만들어 가는 것이다.
-### HEAD --> Master브랜치 --> 1째 커밋ID
+### HEAD --> Master브랜치 --> 1번째 커밋ID(마지막 최신버전)
 ### 두번째 커밋을 하면,
-### HEAD --> Master브랜치 --> 2째 커밋ID
+### HEAD --> Master브랜치 --> 2째 커밋ID(마지막 최신버전)
 ### 이 되고, 2번째 커밋ID는 1번째 커밋ID를 부모로 가르킨다.
 ### 브랜치를 만들면,
 ### HEAD --> Master브랜치 --> 2째 커밋ID 을 보고, 2번째 커밋ID를 base로 브랜치를 생성한다.
-### checkout 명령어는 HEAD가 가르키는 값을 변경하는 것
+### ***checkout 명령어는 HEAD가 가르키는 값을 변경하는 것***
 ### checkout new브랜치 실행하면, Master브랜치를 가르키던 HEAD가 new브랜치를 가르키게 된다.
 ### HEAD --> new브랜치 --> 2번째 커밋ID
 ### new 브랜치에서 새로 commit을 하면, 새로운 커밋ID가 만들어진다.
 ### HEAD --> new브랜치 --> 3번째 커밋 ID
 ![HEAD이미지](./HEAD.png)
+### checkout은 HEAD의 값을 변경하는 것이므로, 브랜치를 가르키게할 수도 있지만, 특정 커밋ID를 가르키게도 할 수 있다.
+### HEAD --> 1번째 커밋ID
+### 이런 상태를 HEAD가 detached 상태에 있다고 표현한다.
+
+### 암튼, checkout은 HEAD를 제어하고, HEAD는 브랜치나 커밋ID 값을 가르킨다.
+### 근데 대부분 checkout은 브랜치를 가르킨다.(브랜치 전환에 사용)
+
+### reset 커밋ID는 해당 버전 이후의 것은 모두 삭제해버리고, 현재 브랜치가 해당 커밋ID를 가르키게 만든다.
