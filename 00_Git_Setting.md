@@ -81,25 +81,26 @@ https://git-scm.com/ 에 접속해서 다운/설치 한다.
 
 ### 2. VSCode를 기본 에디터로 설정
 
-1. VSCode의 Command Palette(Comand + Shift + P)
+1. VSCode의 Command Palette(Comand + Shift + P) 실행 후
     > Shell command: Install 'code' command in PATH 설정
 
 2. git 설정파일의 core.editor 설정
     > `git config --global core.editor "code"`
 
-3. 캐리지리턴 맞춤 설정
-    > `git config --global core.autocrlf input` : 맥
+### 3. 캐리지리턴 맞춤 설정
+> `git config --global core.autocrlf input` : 맥
 
-    > `git config --global core.autocrlf true` : 윈도우
+> `git config --global core.autocrlf true` : 윈도우
 
-### 3. 명령어 별칭 설정
+### 4. 명령어 별칭 설정
 > `git config --global alias.st status`
 ##### * git st 만 입력해도, git status가 실행됨
 
 <br><br>
 
 ## (참고) 기타 명령어
-### 1. 명령어별 옵션 확인 : git 명령어 -h
+### 1. 명령어별 옵션 확인 
+> `git 명령어 -h`
 ### 2. 디렉터리 내부 파일 확인
 > `ls` : 폴더 내부 표시
 
