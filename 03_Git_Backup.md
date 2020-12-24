@@ -60,7 +60,7 @@ Git Backup
 
 <br><br>
 
-## **Git에서 오픈소스 다운로드 방법**
+## **GitHub에서 오픈소스 다운로드 방법**
 1. ### zip 파일 다운로드
 2. ### clone HTTPS원격저장소URL
 
