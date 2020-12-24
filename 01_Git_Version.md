@@ -127,64 +127,7 @@ Git 기본 명령어
 ##### 새로 커밋하는 명령이므로, 커밋 메시지를 작성하는 창이 뜬다.
 ##### 아무런 커밋도 삭제되지 않으므로 reset보다 안전하게 과거로 돌아가는 방법이다.
 
-<br><br>
 
-## # 자주 작업하는 내용들 정리.
-### 1. 프로젝트 폴더 생성
-
-### 2. 로컬 저장소(git repository) 생성 
-   >`git init`
-
-### 3. 파일 생성(수정)
-
-### 4. tracked/modified 상태 체크
-   >`git status`
-
-### 5. Staging Area 등록
-   >`git add 파일명`
-
-### 6. Git Repository에 커밋
-   >`git commit -m '커밋 메시지'`
-
-   >`git commit -am '커밋 메시지'` : tracked 상태의 파일은 한번에 add, commit 가능
-
-### 7. 커밋 로그 확인
-   >`git log`
-
-### 8. 브랜치 생성
-   >`git branch 브랜치명`
-
-### 9. 브랜치 전환
-   >`git checkout 브랜치명`
-
-### 10. 브랜치 병합
-   >`git checkout 메인브랜치`
-
-   >`git merge 병합할브랜치`
-
-### 11. 이전 커밋으로 되돌리기(상쇄)
-   >`git revert 이전커밋ID6자리`
-
-### 12. 원격저장소(GitHub) 연결
-   >`git remote add origin 원격저장소URL.git`
-
-### 13. 원격저장소(GitHub)로 올리기
-   >`git push -u 원격저장소별칭 브랜치` : 최초 push할 때
-
-   >`git push 원격저장소명 로컬브랜치`
-
-   >`git push` : 인자를 생략할 수 있음
-
-### 14. 원격저장소(GitHub)에서 다운받기
-   >`git clone` : 최초에 다운받을 때(커믹이력이 저장된 git repository 포함)
-
-   >`git pull` : 변경사항만 다운받을 때
-
-### 15. 최초 설정 이후 작업 순서
-1. pull : 먼저 원격의 최신 버전을 다운 받는다.
-2. 작업 : 로컬에서 작업을 한다
-3. commit : 작업 내용을 버전으로 등록한다.
-3. push : 원격에 올린다.
 
 
 
