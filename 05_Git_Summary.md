@@ -8,6 +8,8 @@
 ### 2. 로컬 저장소(git repository) 생성 
    >`git init`
 
+   >`git init 경로`
+
 <br>
 
 ### 3. 파일 생성(수정)
@@ -27,6 +29,8 @@
 <br>
 
 ### 6. Git Repository에 커밋
+   >`git commit`
+
    >`git commit -m '커밋 메시지'`
 
    >`git commit -am '커밋 메시지'` : tracked 상태의 파일을 한번에 add, commit

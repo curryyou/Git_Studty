@@ -28,9 +28,14 @@ Git Backup
 
 > `git remote -v`
 
-### 3. 최초 업로드
-> `git push -u 원격저장소별칭 브랜치`
+### 3. 최초 업로드(upstream setting)
+> `git push -u 원격저장소별칭 브랜치명`
+
+> `git push -u origin master`: 관습적으로 origin을 원격저장소의 별칭으로 많이 사용함
 * ##### Git Hub 의 아이디/비밀번호 입력 필요
+* ##### '업스트림 세팅'은 로컬의 브랜치를 원격의 브랜치가 tracking하게 설정하는 개념.
+* ##### 다음부터 push 명령어에 인자 생략하여 사용 가능
+
 
 <br><br>
 
