@@ -2,7 +2,7 @@ Git 설정
 ===
 
 ## **Git이란?**
-### ***파일의 이력을 추적하고, 다양한 버전으로 관리해주는 시스템***
+### ***파일의 이력과 버전을 관리해주는 시스템***
 ### 특정 디렉터리에 Git을 설정해두면,
 1. ### 파일의 과거 버전으로 쉽게 돌아갈 수 있다.
 2. ### 파일을 여러 버전으로 분기해볼 수 있다.
@@ -57,15 +57,21 @@ https://git-scm.com/ 에 접속해서 다운/설치 한다.
     * #### 특정 폴더 제외 : build/ 
     * #### 특정 폴더의 특정 확장자 : build/.txt
 
+<br><br>
 
 ## (참고) 각종 설정 관련 내용
+
 ### 1. 설정파일 편집방법
 > `git config --global -e`
+
 ### 2. VSCode를 기본 에디터로 설정
+
 1. VSCode의 Command Palette(Comand + Shift + P)
     > Shell command: Install 'code' command in PATH 설정
+
 2. git 설정파일의 core.editor 설정
     > `git config --global core.editor "code"`
+
 3. 캐리지리턴 맞춤 설정
     > `git config --global core.autocrlf input` : 맥
 
@@ -75,10 +81,18 @@ https://git-scm.com/ 에 접속해서 다운/설치 한다.
 > `git config --global alias.st status`
 ##### * git st 만 입력해도, git status가 실행됨
 
-## (참고) 각종 확인 방법
+<br><br>
 
+## (참고) 기타 명령어
+### 1. 명령어별 옵션 확인 : git 명령어 -h
+### 2. 디렉터리 내부 파일 확인
+> `ls` : 폴더 내부 표시
 
-7) 명령어별 옵션 확인 : git 명령어 -h
+> `ls -l` : 폴더 내부 자세히 표시
+
+> `ls -a` : 폴더 내부 표시(+숨김 파일 포함)
+
+> `ls -al` : 폴더 내부 자세히 표시(+숨김 파일 포함)
 
 
 
