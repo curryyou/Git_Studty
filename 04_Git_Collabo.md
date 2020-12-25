@@ -5,7 +5,7 @@ Git Hub 협업
 ### 1. Git Hub 사이트 접속
 ### 2. Setting 진입
 - Manage access 진입
-- Invite a Collaboratro 클릭
+- Invite a Collaborator 클릭
 - 추가할 사용자의 ID나 Email 입력
 - 초청 메일이 자동 발송됨 (Copy Invite Link 주소 보내도 OK)
 ### 3. Permisstion 선택
