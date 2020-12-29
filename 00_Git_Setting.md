@@ -71,7 +71,8 @@ https://git-scm.com/ 에 접속해서 다운/설치 한다.
     * #### 특정 확장자 제외 : *.txt 
     * #### 특정 폴더 제외 : build/ 
     * #### 특정 폴더의 특정 확장자 : build/.txt
-
+3. .gitignore 이 안 먹을 땐, git의 캐시를 삭제해주면 된다.
+    * `git rm -r --cached .`
 <br><br>
 
 ## (참고) 각종 설정 관련 내용
