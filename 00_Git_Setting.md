@@ -52,9 +52,9 @@ https://git-scm.com/ 에 접속해서 다운/설치 한다.
 
 ### 1. 글로벌 사용자 설정 ( 전체 디렉터리에 적용: **_추천_** )
 
-> `git config --global user.name = '사용자 이름'`
+> `git config --global user.name '사용자 이름'`
 
-> `git config --global user.email = '이메일 주소'`
+> `git config --global user.email '이메일 주소'`
 
 <br>
 
